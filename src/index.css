@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+|*{
+  padding: 0;
+  margin: 0;
+}
+
+#btn:focus{
+outline: 2px rgba(15, 136, 206, 0.877) solid;
+}
+#message{
+  background-image: url("http://i.imgur.com/2cOaJ.png");
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+input::placeholder{
+font-weight: bolder;
+}
